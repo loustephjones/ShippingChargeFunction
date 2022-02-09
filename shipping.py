@@ -13,7 +13,7 @@ elif weight <=10:
 elif weight > 10:
   ground_cost = weight * 4.75 + 20.00
 
-if mode == "ground" and premium == True:
+if mode == "ground" and premium:
   print(round(ground_cost + 125.00, 2))
 elif mode == "ground": 
   print(round(ground_cost, 2))
