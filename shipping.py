@@ -26,7 +26,8 @@ elif weight <=6:
   drone_cost = weight * 9.00
 elif weight <=10:
   drone_cost = weight * 12.00
-elif weight > 10:
+else:
+    
   drone_cost = weight * 14.25
 
 if mode == "drone":
